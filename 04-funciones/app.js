@@ -34,5 +34,11 @@ function mostrarFecha(fecha){
     return `El día de la semana es: ${fecha}`; 
 }
 
+const miInput = document.getElementById('input');
+const miBoton = document.getElementById('btn');
+
+console.log(miInput);
+console.log(miBoton);
+
 /* let fecha = mostrarFecha('martes');
 console.log(fecha); */
