@@ -10,28 +10,19 @@
 <input type="submit" id="boton">
 
 <section id="caja" style="width: 200px; height: 200px; background: #2e2e2e;"></section>
-<button>Verde</button>
-<button>Rojo</button>
-<button>Azul</button>
-<button>Amarillo</button>
+<button onclick="colorear('green')">Verde</button>
+<button onclick="colorear('tomato')">Rojo</button>
+<button onclick="colorear('blue')">Azul</button>
+<button onclick="colorear('yellow')">Amarillo</button>
 
 <section id="circulo" style="width: 200px; height: 200px; border-radius: 50%; background: #2e2e2e;"></section>
-<button>Mover</button><br><br>
+<button onclick="mover()">Mover</button><br><br>
 
 
 <img id="miImagen" src="imagen.png" width="300px"><br>
-<button>Cambiar</button><br><br>
+<button id="btnCambiar">Cambiar</button><br><br>
 
-<script>
-
-	
-
-
-
-
-	
-
-</script>
+<script src="app.js"></script>
 
 </body>
 </html>

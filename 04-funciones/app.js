@@ -29,13 +29,19 @@ console.log(result)
 
 //Función que me dice la fecha:
 
-function mostrarFecha(fecha){
-    alert( `El día de la semana es: ${fecha}` );
-    return `El día de la semana es: ${fecha}`; 
-}
-
+//1. Declaración de variables:
 const miInput = document.getElementById('input');
 const miBoton = document.getElementById('btn');
+
+//2. Creación de funciones
+function mostrarFecha(){
+    let fecha = miInput.value;
+    alert( `El día de la semana es: ${fecha}` );
+    return `El día de la semana es: ${fecha}`; 
+} 
+
+//3. Llamado a función y eventos
+miBoton.addEventListener('click',mostrarFecha);
 
 console.log(miInput);
 console.log(miBoton);
